@@ -1,0 +1,8 @@
+{
+    "phpcs_execute_on_save": false,
+    "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+    "php_cs_fixer_additional_args": {
+        "--level": "psr2"
+    },
+    "phpcbf_executable_path": "/usr/bin/phpcbf"
+}

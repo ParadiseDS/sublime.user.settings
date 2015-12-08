@@ -1,0 +1,8 @@
+{
+    // Maximum size for encoding cache, 0 means no cache
+    "max_cache_size" : 100,
+    // Convert when previewing file: true or false
+    "preview_action" : false,
+    // Convert in Find Results view
+    "convert_on_find": true
+}

@@ -1,0 +1,4 @@
+{
+    "git_merge_flags": ["--no-diff"],
+    "git_commit_verbose": true
+}

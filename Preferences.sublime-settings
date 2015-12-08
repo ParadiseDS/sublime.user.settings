@@ -1,0 +1,39 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_find_in_selection": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"detect_slow_plugins": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "ASCII",
+	"font_face": "source code pro semibold",
+	"font_size": 9.5,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Emmet",
+		"PHPUnit Completions",
+		"SublimeGit",
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"index_exclude_patterns":
+	[
+		"/home/paradiseds/Work/shoutbox_bot@u2*",
+		"/home/paradiseds/Work/airtest*",
+		"*.log"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"preview_on_click": true,
+	"scroll_past_end": true,
+	"shift_tab_unindent": false,
+	"show_encoding": true,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": "true"
+}

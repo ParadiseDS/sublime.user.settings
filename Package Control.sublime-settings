@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"http_proxy": "127.0.0.1:8118",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Codecs33",
+		"ConvertToUTF8",
+		"CTags",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Function Name Display",
+		"Git",
+		"HexViewer",
+		"LaTeXTools",
+		"LineEndings",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Monokai Extended",
+		"Package Control",
+		"Phpcs",
+		"PHPUnit",
+		"PHPUnit Completions",
+		"PHPUnit Snippets",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"SublimeLinter-phpmd",
+		"Sublimerge Pro",
+		"TrailingSpaces",
+		"VBDotNet",
+		"VCS Gutter",
+		"WhoCalled Function Finder"
+	]
+}

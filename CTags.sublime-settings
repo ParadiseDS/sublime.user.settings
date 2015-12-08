@@ -1,0 +1,4 @@
+{
+    "command": "/usr/bin/ctags",
+    "opts" : ["--langmap=c++:+.cu"]
+}

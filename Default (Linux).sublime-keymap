@@ -1,0 +1,70 @@
+[
+    { "keys": ["ctrl+."], "command": "indent" },
+    { "keys": ["ctrl+,"], "command": "unindent" },
+    { "keys": ["alt+shift+`"], "command": "clone_file" },
+    { "keys": ["ctrl+alt+m"], "command": "sublimerge"},
+    // Go to left bracket
+    {
+        "keys": ["ctrl+super+["],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+super+]"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },
+    // Select text between brackets
+    {
+        "no_outside_adj": true,
+        "keys": ["ctrl+super+a"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    },
+    //Reindent
+    { "keys": ["alt+shift+r"], "command": "reindent" },
+    { "keys": ["f12"], "command": "goto_definition" },
+    { "keys": ["shift+f12"], "command": "jump_back" },
+    /////////////////////////////
+    //PHP code sinffer command //
+    /////////////////////////////
+    //phpcs_fix_this_file
+    // phpcs_clear_sniffer_marks
+    // phpcs_goto_next_error
+    // phpcs_show_previous_errors
+    // phpcs_sniff_this_file
+    // fix tools arg
+    // { "keys": ["super+k", "super+f"], "command": "phpcs_fix_this_file", "args": {"tool": "CodeBeautifier"}},
+    // { "keys": ["super+k", "super+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
+    { "keys": ["ctrl+super+s"], "command": "phpcs_sniff_this_file" },
+    { "keys": ["ctrl+super+c"], "command": "phpcs_clear_sniffer_marks" }
+]
