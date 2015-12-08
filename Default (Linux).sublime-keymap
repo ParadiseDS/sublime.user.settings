@@ -66,5 +66,6 @@
     // { "keys": ["super+k", "super+f"], "command": "phpcs_fix_this_file", "args": {"tool": "CodeBeautifier"}},
     // { "keys": ["super+k", "super+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
     { "keys": ["ctrl+super+s"], "command": "phpcs_sniff_this_file" },
-    { "keys": ["ctrl+super+c"], "command": "phpcs_clear_sniffer_marks" }
+    { "keys": ["ctrl+super+c"], "command": "phpcs_clear_sniffer_marks" },
+    { "keys": ["ctrl+super+p"], "command": "prompt_select_workspace" }
 ]
