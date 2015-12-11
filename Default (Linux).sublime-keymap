@@ -70,5 +70,9 @@
     {
         "keys": ["ctrl+super+p"],
         "command": "project_manager", "args": {"action": "switch"}
-    }
+    },
+    {
+        "keys": ["ctrl+super+n"],
+        "command": "project_manager", "args": {"action": "new"}
+    },
 ]
