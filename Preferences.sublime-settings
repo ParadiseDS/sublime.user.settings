@@ -4,7 +4,7 @@
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Origin (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
