@@ -1,0 +1,4 @@
+{
+    "cmd": ["g++", "-g", "-std=c++11", "${file}", "-o", "${file_base_name}"],
+    "selector": "source.c++"
+}
