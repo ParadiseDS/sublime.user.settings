@@ -17,12 +17,12 @@
 	[
 		"Emmet",
 		"PHPUnit Completions",
-		"SublimeGit",
 		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"index_exclude_patterns":
 	[
+		"cuda_7.0.28_linux.run",
 		"/home/paradiseds/Work/shoutbox_bot@u2*",
 		"/home/paradiseds/Work/airtest*",
 		"*.log"

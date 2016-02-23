@@ -12,6 +12,7 @@
 		"Codecs33",
 		"ConvertToUTF8",
 		"CTags",
+		"CUDA C++",
 		"DocBlockr",
 		"Emmet",
 		"FileDiffs",
@@ -30,7 +31,7 @@
 		"PHPUnit Snippets",
 		"Project Manager",
 		"SideBarEnhancements",
-		"SublimeGit",
+		"SublimeGDB",
 		"SublimeLinter",
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
@@ -39,9 +40,11 @@
 		"SublimeLinter-phpcs",
 		"SublimeLinter-phpmd",
 		"Sublimerge Pro",
+		"Theme - Soda",
 		"TrailingSpaces",
 		"VBDotNet",
 		"VCS Gutter",
-		"WhoCalled Function Finder"
+		"WhoCalled Function Finder",
+		"Xdebug Client"
 	]
 }
