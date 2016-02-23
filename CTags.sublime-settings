@@ -1,4 +1,4 @@
 {
     "command": "/usr/bin/ctags",
-    "opts" : ["--langmap=c++:+.cu"]
+    "opts" : ["--langmap=c++:+.cu", "--exclude=.sync"]
 }
