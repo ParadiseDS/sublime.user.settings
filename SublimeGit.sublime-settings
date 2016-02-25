@@ -1,0 +1,9 @@
+{
+	"git_commit_verbose": true,
+	"git_executables": {
+        "git": ["D:\\Git\\mingw64\\bin\\git.exe"],
+        "git_flow": ["git-flow"],
+        "legit": ["legit"],
+        "gitk": ["gitk"]
+    }
+}

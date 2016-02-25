@@ -1,0 +1,8 @@
+{
+    "vcs_paths": {
+        "diff": "diff",
+        "git": "D:\\Program Files\\Git\\bin\\git.exe",
+        "hg": "hg",
+        "svn": "svn"
+    }
+}

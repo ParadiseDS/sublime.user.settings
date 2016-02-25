@@ -1,0 +1,6 @@
+{
+	"default_browser": "chrome",
+	"statusbar_modified_time_format": "%H:%M:%S %b %d %Y",
+	"statusbar_file_size": true,
+	"statusbar_modified_time": false
+}

@@ -1,0 +1,55 @@
+[
+	{ "keys": ["ctrl+."], "command": "indent" },
+	{ "keys": ["ctrl+,"], "command": "unindent" },
+    { "keys": ["alt+shift+`"], "command": "clone_file" },
+    { "keys": ["ctrl+alt+m"], "command": "sublimerge"},
+	// Go to left bracket
+    {
+        "keys": ["ctrl+["],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+]"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },
+    // Select text between brackets
+    {
+        "no_outside_adj": true,
+        "keys": ["ctrl+shift+a"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    },
+    //Reindent
+    { "keys": ["alt+shift+r"], "command": "reindent" }
+]
