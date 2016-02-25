@@ -1,5 +1,5 @@
 {
 	"git_binary": "D:\\Git\\bin\\git.exe",
-    "non_blocking": true,
-    "debounce_delay": 100
+	"non_blocking": true,
+	"debounce_delay": 100
 }
