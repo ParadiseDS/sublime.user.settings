@@ -33,7 +33,7 @@
 	"scroll_past_end": true,
 	"shift_tab_unindent": false,
 	"show_encoding": true,
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": "true"
