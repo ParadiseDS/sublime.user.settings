@@ -1,3 +1,7 @@
 *cache*
 *.last-run
+*ca-bundle
+Xdebug.breakpoints
+Xdebug.expressions
+Xdebug.log
 */*
