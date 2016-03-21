@@ -1,4 +1,11 @@
 {
-    "show_open_files": true,
-    "projects_fpath": ["/home/paradiseds/Work/sublime-project"]
+	"projects_fpath":
+	[
+		"/home/paradiseds/Work/sublime-project"
+	],
+	"projects_path":
+	[
+		"/home/paradiseds/Work/sublime-project"
+	],
+	"show_open_files": true
 }
