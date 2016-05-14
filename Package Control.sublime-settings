@@ -8,6 +8,7 @@
 	[
 		"Alignment",
 		"All Autocomplete",
+		"ARM Assembly",
 		"BracketHighlighter",
 		"Codecs33",
 		"ConvertToUTF8",
@@ -39,13 +40,14 @@
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
 		"SublimeLinter-phpmd",
+		"SublimeREPL",
 		"Sublimerge Pro",
 		"Theme - Soda",
 		"TrailingSpaces",
 		"VBDotNet",
 		"VCS Gutter",
+		"VIM Navigation",
 		"WhoCalled Function Finder",
-		"x86 and x86_64 Assembly",
 		"Xdebug Client"
 	]
 }
