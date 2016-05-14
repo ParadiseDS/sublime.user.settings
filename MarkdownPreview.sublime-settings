@@ -1,4 +1,5 @@
 {
     "enable_highlight": true,
     "enable_uml": true,
+    "enable_mathjax": true,
 }
