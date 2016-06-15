@@ -1,6 +1,7 @@
-WhoCalledData/*
-SublimeLinter/*
-Package.Control.cache/*
-c2u_tmp/*
-Package Control.*
-encoding_cache.json
+*cache*
+*.last-run
+*ca-bundle
+Xdebug.breakpoints
+Xdebug.expressions
+Xdebug.log
+*/*
