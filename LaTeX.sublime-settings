@@ -1,8 +1,4 @@
 {
-	"extensions":
-	[
-		"md"
-	],
 	"font_face": "Microsoft YaHei",
 	"font_size": 11.5,
 	"line_padding_bottom": 2,
