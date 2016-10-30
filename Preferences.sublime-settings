@@ -1,6 +1,17 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
@@ -16,7 +27,8 @@
 	"ignored_packages":
 	[
 		"Emmet",
-		"Vintage"
+		"Vintage",
+		"WhoCalled Function Finder"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 1,
