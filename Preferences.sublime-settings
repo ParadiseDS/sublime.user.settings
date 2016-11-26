@@ -1,6 +1,18 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
+	"auto_complete_with_fields": true,
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
 	"close_windows_when_empty": false,
@@ -10,7 +22,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "ASCII",
 	"font_face": "source code pro semibold",
-	"font_size": 9.5,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
