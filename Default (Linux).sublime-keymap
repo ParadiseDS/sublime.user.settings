@@ -75,4 +75,10 @@
         "keys": ["ctrl+super+n"],
         "command": "project_manager", "args": {"action": "new"}
     },
+    {
+        "keys": ["ctrl+super+alt+l"],
+        "command": "who_called", "args": {"mode": "call"}
+    },
+    { "keys": ["ctrl+shift+alt+t"], "command": "open_terminal" },
+    { "keys": ["ctrl+alt+super+t"], "command": "open_terminal_project_folder" },
 ]
