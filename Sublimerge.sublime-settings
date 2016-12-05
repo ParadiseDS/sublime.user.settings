@@ -1,4 +1,6 @@
 {
+	"dont_remind_about_sublimerge_3": true,
 	"toggle_menu": false,
-	"toggle_side_bar": false,
+	"toggle_side_bar": true,
+	"toggle_minimap": true
 }
