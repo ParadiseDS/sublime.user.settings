@@ -28,8 +28,7 @@
 	"ignored_packages":
 	[
 		"Emmet",
-		"PHPUnit Completions",
-		"Vintage"
+		"PHPUnit Completions"
 	],
 	"indent_to_bracket": true,
 	"index_exclude_patterns":
