@@ -1,9 +1,10 @@
 {
-	"tab_size": 2,
 	"extensions":
 	[
 		"md"
 	],
 	"font_face": "Yahei Consolas Hybrid",
-	"font_size": 11.5
+	"font_size": 11.5,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?。、（）“”‘’——：，；《》！￥……【】·？",
+	"translate_tabs_to_spaces": true,
 }
