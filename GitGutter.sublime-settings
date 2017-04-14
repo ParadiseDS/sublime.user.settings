@@ -1,0 +1,10 @@
+// GitGutter Settings - User
+{
+	"status_bar_text": [
+	  "{{state}}->{{branch}}[{{repo}}]",
+	  "{% if compare not in ('HEAD', branch) %}, against {{compare}}{% endif %}",
+	  "{% if deleted != 0 %}, {{deleted}}-{% endif %}",
+	  "{% if inserted != 0 %}, {{inserted}}+{% endif %}",
+	  "{% if modified != 0 %}, {{modified}}≠{% endif %}"
+	],
+}
