@@ -1,0 +1,5 @@
+[
+    // Change only the current view's font size with ctrl+scroll wheel
+    { "button": "scroll_down", "modifiers": ["ctrl"], "command": "decrease_view_font_size" },
+    { "button": "scroll_up", "modifiers": ["ctrl"], "command": "increase_view_font_size" },
+]

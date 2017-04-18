@@ -1,0 +1,13 @@
+{
+	"extensions":
+	[
+		"md"
+	],
+	"font_face": "Noto Sans Mono CJK SC",
+	"font_size": 15,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?。、（）“”‘’——：，；《》！￥……【】·？",
+	"rulers": [],
+	"translate_tabs_to_spaces": true,
+}

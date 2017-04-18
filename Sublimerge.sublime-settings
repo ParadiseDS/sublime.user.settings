@@ -1,0 +1,28 @@
+{
+	"view": {
+	    //set to true if you want to display line numbers (they may not be corresponding
+	    //with original file lines due to expanded diff regions)
+	    "line_numbers": true,
+
+	    //set to true if you want lines to wrap on words (this is not recommended due to
+	    //readability reasons)
+	    "word_wrap": false,
+
+	    //set to true if you want to have extended scroll area
+	    "scroll_past_end": false,
+
+	    //set to false if you don't want to highlight corresponding lines
+	    "highlight_line": true,
+
+	    //set to 'all' to display white space characters always, 'selection' to display
+	    //only when selection is applied
+	    "draw_white_space": "all",
+
+	    //disable save on focus functionality in diff view
+	    "save_on_focus_lost": false,
+
+	    //don't translate tabs to spaces in diff view
+	    "translate_tabs_to_spaces": false
+	},
+	"dont_remind_about_sublimerge_3": true
+}
