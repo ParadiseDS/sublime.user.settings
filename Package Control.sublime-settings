@@ -1,6 +1,5 @@
 {
 	"bootstrapped": true,
-	"http_proxy": "127.0.0.1:8118",
 	"in_process_packages":
 	[
 	],
@@ -17,12 +16,15 @@
 		"DashDoc",
 		"DocBlockr",
 		"DocBlockr_Python",
+		"Dockerfile Syntax Highlighting",
 		"Emmet",
 		"FileDiffs",
 		"Function Name Display",
 		"Git",
 		"GitGutter",
 		"Golang Build",
+		"GoSublime",
+		"GoTests",
 		"HexViewer",
 		"Javascript Beautify",
 		"LaTeXTools",
@@ -40,6 +42,7 @@
 		"SublimeLinter-php",
 		"SublimeREPL",
 		"Sublimerge Pro",
+		"Terminal",
 		"TrailingSpaces",
 		"Unicode Escape"
 	]
