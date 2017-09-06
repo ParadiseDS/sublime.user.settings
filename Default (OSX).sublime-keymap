@@ -14,15 +14,19 @@
 	},
 	// Project Manager
 	{
-	    "keys": ["ctrl+super+p"],
-	    "command": "project_manager", "args": {"action": "switch"}
+		"keys": ["ctrl+super+p"],
+		"command": "project_manager", "args": {"action": "switch"}
 	},
 	{
-	    "keys": ["ctrl+super+n"],
-	    "command": "project_manager", "args": {"action": "new"}
+		"keys": ["ctrl+super+n"],
+		"command": "project_manager", "args": {"action": "new"}
 	},
 	// Sublimerge
 	{ "keys": ["super+k", "super+m"], "command": "sublimerge"},
+	// Terminal
+	{ "keys": ["super+shift+t"], "command": "reopen_last_file" },
+	{ "keys": ["ctrl+shift+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
 	// font size adjust for current view
 	// from https://github.com/SublimeTextIssues/Core/issues/1551#issuecomment-268999091
 	{ "keys": ["alt++"], "command": "increase_view_font_size" },
@@ -34,8 +38,24 @@
 	{ "keys": ["alt+equals"], "command": "increase_view_font_size" },
 	{ "keys": ["alt+shift+equals"], "command": "decrease_view_font_size" },
 	{ "keys": ["alt+shift+keypad_plus"], "command": "decrease_view_font_size" },
+	//bh_highligter
+	{
+			"no_outside_adj": true,
+			"keys": ["alt+super+a"],
+			"command": "bh_key",
+			"args":
+			{
+				"lines" : true,
+				"plugin":
+				{
+					"type": ["__all__"],
+					"command": "bh_modules.bracketselect"
+				}
+			}
+		},
 	// Others
 	{ "keys": ["shift+f12"], "command": "jump_back" },
+	{ "keys": ["ctrl+="], "command": "jump_forward" },
 	{ "keys": ["alt+shift+r"], "command": "reindent" },
 	{ "keys": ["alt+shift+`"], "command": "clone_file" },
 ]
