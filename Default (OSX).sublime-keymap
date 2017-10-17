@@ -58,4 +58,5 @@
 	{ "keys": ["ctrl+="], "command": "jump_forward" },
 	{ "keys": ["alt+shift+r"], "command": "reindent" },
 	{ "keys": ["alt+shift+`"], "command": "clone_file" },
+	{ "keys": ["ctrl+h"], "command": "dash_doc"},
 ]
