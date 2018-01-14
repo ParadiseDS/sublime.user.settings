@@ -1,4 +1,12 @@
 {
+	//Set to true if you want to ignore whitespace differences
+	"ignore_whitespace": false,
+
+	//Set to true if you want to ignore differences in new line characters (CR/LF)
+	"ignore_crlf": true,
+
+	//Set to true if you want diff to be case insensitive
+	"ignore_case": false,
 	"view": {
 	    //set to true if you want to display line numbers (they may not be corresponding
 	    //with original file lines due to expanded diff regions)
