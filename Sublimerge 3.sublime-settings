@@ -1,0 +1,4 @@
+{
+	"ignore_whitespace": ["begin"],
+	"intraline_changes_threshold": 40
+}
