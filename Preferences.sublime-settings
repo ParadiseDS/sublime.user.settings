@@ -15,7 +15,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Emmet"
+		"Block Cursor Everywhere",
+		"Emmet",
+		"Sublimerge Pro",
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"line_padding_bottom": 1,
