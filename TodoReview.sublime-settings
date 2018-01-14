@@ -1,0 +1,8 @@
+{
+	"patterns": {
+		"TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+		"TOFIX": "TOFIX[\\s]*?:[\\s]*(?P<tofix>.*)$",
+		"FIXME": "FIXME[\\s]*?:[\\s]*(?P<fixme>.*)$"
+	}
+
+}
