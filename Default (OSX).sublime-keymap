@@ -40,21 +40,65 @@
 	{ "keys": ["alt+shift+keypad_plus"], "command": "decrease_view_font_size" },
 	//bh_highligter
 	{
-			"no_outside_adj": true,
-			"keys": ["alt+super+a"],
-			"command": "bh_key",
-			"args":
+		"no_outside_adj": true,
+		"keys": ["alt+super+a"],
+		"command": "bh_key",
+		"args":
+		{
+			"lines" : true,
+			"plugin":
 			{
-				"lines" : true,
-				"plugin":
-				{
-					"type": ["__all__"],
-					"command": "bh_modules.bracketselect"
-				}
+				"type": ["__all__"],
+				"command": "bh_modules.bracketselect"
 			}
+		}
+	},
+	// Emmet, `ctrl+.` as prefix
+	{
+		"keys": [
+			"ctrl+.", // ctrl+e is for line end
+			"ctrl+e" // ctrl+e is for line end
+		],
+		"args": {
+			"action": "expand_abbreviation"
 		},
+		"command": "run_emmet_action",
+	},
+	{
+		"keys": [
+			"ctrl+.",
+			"ctrl+r",
+		],
+		"args": {
+			"action": "reflect_css_value"
+		},
+		"command": "run_emmet_action",
+	},
+	{
+        "keys": [
+            "ctrl+.",
+            "ctrl+m"
+        ],
+        "args": {
+            "action": "matching_pair"
+        },
+        "command": "run_emmet_action",
+    },
+    // Vintage ctrl+d
+    {"keys": ["ctrl+d"], "command": "scroll_lines", "args": {"amount": -20.0}, "context": [{"key": "setting.command_mode"}]},
+    // Group related
+    { "keys": ["shift+super+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["shift+super+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["shift+super+3"], "command": "focus_group", "args": { "group": 2 } },
+    { "keys": ["shift+super+4"], "command": "focus_group", "args": { "group": 3 } },
+    { "keys": ["shift+super+5"], "command": "focus_group", "args": { "group": 4 } },
+    { "keys": ["shift+super+6"], "command": "focus_group", "args": { "group": 5 } },
+    { "keys": ["shift+super+7"], "command": "focus_group", "args": { "group": 6 } },
+    { "keys": ["shift+super+8"], "command": "focus_group", "args": { "group": 7 } },
+    { "keys": ["shift+super+9"], "command": "focus_group", "args": { "group": 8 } },
 	// Others
 	{ "keys": ["shift+f12"], "command": "jump_back" },
+	{ "keys": ["alt+f12"], "command": "goto_reference" },
 	{ "keys": ["ctrl+="], "command": "jump_forward" },
 	{ "keys": ["alt+shift+r"], "command": "reindent" },
 	{ "keys": ["alt+shift+`"], "command": "clone_file" },

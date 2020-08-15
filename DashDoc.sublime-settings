@@ -39,7 +39,7 @@
     "PHP"                   : ["php", "wordpress", "drupal", "zend", "laravel", "yii", "joomla", "ee", "codeigniter", "cakephp", "phpunit", "symfony", "typo3", "twig", "smarty", "phpp", "html", "statamic", "mysql", "sqlite", "mongodb", "psql", "redis"],
     "Processing"            : ["processing"],
     "Puppet"                : ["puppet"],
-    "Python"                : ["python", "django", "twisted", "sphinx", "flask", "tornado", "sqlalchemy", "numpy", "scipy", "salt", "cvp", "matplotlib"],
+    "Python"                : ["python", "django", "twisted", "sphinx", "flask", "tornado", "sqlalchemy", "numpy", "scipy", "salt", "cvp", "matplotlib", "cvp", "keras", "tensorflow"],
     "R"                     : ["r"],
     "Ruby"                  : ["ruby", "rubygems", "rails"],
     "Ruby on Rails"         : ["ruby", "rubygems", "rails"],

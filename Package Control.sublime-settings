@@ -1,5 +1,25 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"urllib",
+			"curl",
+			"wget"
+		],
+		"osx":
+		[
+			"curl",
+			"wget",
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
+	"https_proxy": "127.0.0.1:8118",
 	"in_process_packages":
 	[
 	],
@@ -7,6 +27,7 @@
 	[
 		"Alignment",
 		"All Autocomplete",
+		"Babel",
 		"Block Cursor Everywhere",
 		"BracketHighlighter",
 		"Codecs33",
@@ -23,16 +44,21 @@
 		"Git",
 		"GitGutter",
 		"Golang Build",
-		"GoSublime",
+		"Gomod",
 		"GoTests",
 		"HexViewer",
+		"JavaIME",
 		"Javascript Beautify",
 		"LaTeXTools",
+		"LESS",
 		"Line Endings Unify",
 		"Markdown Extended",
-		"Markdown Preview",
+		"Markdown Slideshow",
+		"MarkdownPreview",
 		"Monokai Extended",
+		"Mustache",
 		"Package Control",
+		"PlantUmlDiagrams",
 		"ProjectManager",
 		"Protocol Buffer Syntax",
 		"ShellScriptImproved",
@@ -44,6 +70,7 @@
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-php",
 		"SublimeLinter-ruby",
+		"SublimeLinter-shellcheck",
 		"SublimeREPL",
 		"Sublimerge 3",
 		"Sublimerge Pro",

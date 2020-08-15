@@ -1,0 +1,13 @@
+{
+	"extensions": [
+		"fenced_code",
+		"tables",
+		"codehilite",
+		"extra",
+		"toc",
+		"smart_strong",
+		"sane_lists"
+	],
+	"output_file": "/Users/paradiseds/Downloads/MDSlide/demo.html",
+	"presenter": true
+}

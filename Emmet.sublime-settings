@@ -1,0 +1,6 @@
+{
+	// ctrl+e, shift+super+r
+	"disabled_keymap_actions": "expand_abbreviation, reflect_css_value, matching_pair",
+	// Disable tab abbreviation in string in other lang
+	"disable_tab_abbreviations_for_scopes": "string, text.xml"
+}

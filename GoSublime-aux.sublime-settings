@@ -1,0 +1,40 @@
+{
+	"9o.hist./Users/paradiseds/Code/go/src/github.com/ParadiseDS/TimeTickerTest":
+	[
+		"go"
+	],
+	"9o.hist./Users/paradiseds/Code/go/src/github.com/ParadiseDS/leap":
+	[
+		"ks"
+	],
+	"9o.hist./Users/paradiseds/Code/go/src/jpaasUsage/controllers":
+	[
+		"exit",
+		"type",
+		"help"
+	],
+	"9o.hist./Users/paradiseds/Code/icode/baidu/jpaas-wing/delivery-center/src/deliverycenter/services":
+	[
+		"git lg",
+		"git st",
+		"git diff"
+	],
+	"9o.hist./Users/paradiseds/Code/icode/baidu/jpaas-wing/jpaas-openapi/src/jpaasopenapi/services":
+	[
+		"quit",
+		"help",
+		"tskill",
+		"tskill #t38",
+		"tskill #t39"
+	],
+	"9o.hist./Users/paradiseds/Library/Application Support/Sublime Text 3/Packages/GoSublime":
+	[
+		"list",
+		"tskill",
+		"tskill #t38",
+		"tskill #t39"
+	],
+	"ann": "a20.03.09-1",
+	"install_version": "r20.03.09-1",
+	"version": "r20.03.09-1"
+}

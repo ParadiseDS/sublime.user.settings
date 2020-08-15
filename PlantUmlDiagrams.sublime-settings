@@ -1,0 +1,5 @@
+{
+	"output_format": "svg",
+	"plantuml_server": "http://www.plantuml.com/plantuml/",
+	"charset": "UTF-8"
+}
