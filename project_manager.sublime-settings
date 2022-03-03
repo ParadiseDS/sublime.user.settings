@@ -1,7 +1,4 @@
 {
-	"projects_path":
-	[
-		"/Users/paradiseds/Code/sublime-project"
-	],
+	"projects": "/Users/paradiseds/Code/sublime-project",
 	"show_open_files": true
 }

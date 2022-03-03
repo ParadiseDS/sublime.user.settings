@@ -45,6 +45,7 @@
 		"GitGutter",
 		"Golang Build",
 		"Gomod",
+		"GoTags",
 		"GoTests",
 		"HexViewer",
 		"JavaIME",
